@@ -12,3 +12,24 @@ else:
     print('Sorry, no discount ...')
 
 print('Total Bill: ', float(total_bill))
+
+#2
+current = False
+
+if current:
+    current = False
+    print('Turning light off')
+
+if not current:
+    current = True
+    print('Turning light on')
+    
+# 3
+current = False
+
+if current:
+    current = False
+    print('Turning light off')
+else: 
+    current = True
+    print('Turning light on')
