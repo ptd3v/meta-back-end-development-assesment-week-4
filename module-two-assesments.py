@@ -13,7 +13,6 @@ print('Total Bill: ', float(total_bill))
 
 #2
 current = False
-
 if current:
     current = False
     print('Turning light off')
