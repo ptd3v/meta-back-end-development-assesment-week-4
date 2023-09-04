@@ -22,7 +22,6 @@ if not current:
     
 # 3
 current = False
-
 if current:
     current = False
     print('Turning light off')
