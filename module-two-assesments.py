@@ -36,7 +36,6 @@ for dessert in favorites:
 
 #5
 favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisú', 'Chocolate Cake']
-
 count = 0
 
 while count < len(favorites):
