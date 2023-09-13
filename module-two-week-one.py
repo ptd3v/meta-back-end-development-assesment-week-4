@@ -2,7 +2,7 @@
 num_list = [33,42,5,66,77,22,16,79,36,62,78,43,88,39,53,67,89,11]
 num_list.sort()
 
-#Test: Enumerate Function
+#Testing: An enumerate function is used to provide the index of current iteration of a for loop.
 num_index = enumerate(num_list)
 print(list(num_index))
 
