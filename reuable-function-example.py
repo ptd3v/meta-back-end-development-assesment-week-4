@@ -11,3 +11,4 @@ def calculate_bill (bill, tax_rate):
   return (bill * tax_rate) /100.00
 
 #Note: Functions only run when they are called.
+print ('Total Tax: ',calculate_bill(250,15))
