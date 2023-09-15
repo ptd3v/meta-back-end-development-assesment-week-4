@@ -28,3 +28,6 @@ print('Global Var: ', global_var,) #'Local Var: ', local_var, 'Enclosed Var: ', 
 
 #### ####
 
+#Data Strcuture Types
+#In-Built: List, Tuple, Dictionary, Set
+#User-Defined: Stack, Tree, Graph, Queue, Linked List, HashMap 
