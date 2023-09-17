@@ -57,3 +57,13 @@ for x in list4:
     print('Value: ', x)
 
 #Tuples
+my_list = [1, True, 'String', 10.9] #Creates a list. Mutable.
+my_tuple = (1, True, 'String', 10.9) #Creates a tuple. Immutable.
+my_test = 1, True, 'String', 10.9 #Creates a tuple. Immutable.
+
+print(my_tuple[1])
+print(type(my_list))
+print(type(my_tuple))
+print(type(my_test))
+
+print(my_tuple.count(True)) #Counts the occurances of the word 'string'.
