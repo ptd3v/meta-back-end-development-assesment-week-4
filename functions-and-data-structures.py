@@ -57,9 +57,10 @@ for x in list4:
     print('Value: ', x)
 
 #Tuples
-my_list = [1, True, 'String', 10.9] #Creates a list. Mutable.
-my_tuple = (1, True, 'String', 10.9) #Creates a tuple. Immutable.
-my_test = 1, True, 'String', 10.9 #Creates a tuple. Immutable.
+#Tuples
+my_list = [2, True, 'String', 10.9] #Creates a list. Mutable.
+my_tuple = (2, True, 'String', 10.9) #Creates a tuple. Immutable.
+my_test = 2, True, 'String', 10.9 #Creates a tuple. Immutable.
 
 print(my_tuple[1])
 print(type(my_list))
@@ -67,3 +68,8 @@ print(type(my_tuple))
 print(type(my_test))
 
 print(my_tuple.count(True)) #Counts the occurances of the word 'string'.
+print(my_tuple.index(10.9))
+for x in my_tuple:
+    print(x)
+
+#my_tuple[0] = False #Will produce an error, tuples are immutable.
