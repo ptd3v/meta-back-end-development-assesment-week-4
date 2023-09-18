@@ -125,3 +125,29 @@ for x in dict_b: #Loops will only print out keys. Key | Value.
 
 for key, value in dict_b.items(): #Loop using the .items method.
     print (str(key) + ' | ' + (str(value))) #Concatenate the results.
+
+#### ####
+
+#Args and KwArgs (Keyword Args)
+#Args: Non-Keyword Arguments. For passing values without names.
+def sum (a, b):
+    return a + b
+
+print(sum(1,2)) #Ideal for define numbers of arguments.
+
+def sum_a(*args):
+    sum_b = 0
+    for x in args:
+        sum_b += x
+    return sum_b
+
+print(sum_a(1,2,3,4,5,6))
+
+#Kwargs: Keyword Arguments. For passing named values.
+def sum_a(**kwargs):
+    sum_b = 0
+    for k, v in kwargs.items():
+        sum_b += v
+    return round(sum_b, 2)
+
+print(sum_a(Beans = 1.99, Toast = 2.99, Tea = 3.99))
