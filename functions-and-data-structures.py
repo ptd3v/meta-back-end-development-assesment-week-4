@@ -56,7 +56,8 @@ print(*list4, sep = ", ")
 for x in list4:
     print('Value: ', x)
 
-#Tuples
+#### ####
+
 #Tuples
 my_list = [2, True, 'String', 10.9] #Creates a list. Mutable.
 my_tuple = (2, True, 'String', 10.9) #Creates a tuple. Immutable.
@@ -73,6 +74,8 @@ for x in my_tuple:
     print(x)
 
 #my_tuple[0] = False #Will produce an error, tuples are immutable.
+
+#### ####
 
 #Sets
 set_a = {0, 1, 2, 3, 4, 5, 5} #Sets do not allow duplicate values.
@@ -97,3 +100,28 @@ print(set_a.symmetric_difference(set_b))#Show elements that are in set A and set
 print(set_a ^ set_b)#.symmetric_difference simplified.
 
 #print(set_a[0]) #Will throw an error because sets are not indexed.
+
+#### ####
+
+#Dictionaries
+dict_a = {1: 'Tea', 2: 'Coffee', 3: 'Beer'} #Uses keys, not indexes like lists. Which makes it faster?
+dict_b = {}
+print(dict_a[1]) #Uses a key and a value. Hense, key value pair.
+dict_a[4] = 'Milkshake' #Dictionaries are mutable.
+dict_a[5] = 'Toastie'
+print(dict_a)
+del dict_a[5]
+print(dict_a)
+print(dict_b)
+print(type(dict_a))
+print(type(dict_b))
+
+#Dictionary iteration methods: Standard, Items(), Values()
+dict_b = {'Name': 'Steve', 'Employed': True, False: 'Driver', 'Balance': 10.99, 'Name': 'Peter'}#All data types work.
+print(dict_b) #Duplicates are not printed, only the latest 'name' is printed.
+
+for x in dict_b: #Loops will only print out keys. Key | Value.
+    print (x)   
+
+for key, value in dict_b.items(): #Loop using the .items method.
+    print (str(key) + ' | ' + (str(value))) #Concatenate the results.
