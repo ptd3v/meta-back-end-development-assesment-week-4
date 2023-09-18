@@ -73,3 +73,27 @@ for x in my_tuple:
     print(x)
 
 #my_tuple[0] = False #Will produce an error, tuples are immutable.
+
+#Sets
+set_a = {0, 1, 2, 3, 4, 5, 5} #Sets do not allow duplicate values.
+set_a.add(5) #Methods are functions e.g Set, List, Tuple.
+set_a.add(6)
+set_a.remove(2)
+set_a.add(2)
+set_a.discard(5)
+print(set_a)
+
+set_b = {5, 6, 7, 8, 9, 10}
+print(set_b)
+
+print(set_a.union(set_b)) #Joins sets together, minus duplicates.
+print(set_a | set_b)#.union simplified.
+print(set_a.intersection(set_b)) #Prints only the common values.
+print(set_a & set_b)#.intersection simplified.
+
+print(set_a.difference(set_b))#Show all that's in A and not in B.
+print(set_a - set_b)#.difference simplified.
+print(set_a.symmetric_difference(set_b))#Show elements that are in set A and set B, but not both.
+print(set_a ^ set_b)#.symmetric_difference simplified.
+
+#print(set_a[0]) #Will throw an error because sets are not indexed.
