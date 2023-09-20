@@ -1,3 +1,8 @@
+#Syntax Errors, tend to be misspelling or typo. Minimal impact, most IDE's can see it.
+#Exception Errors, known errors that need to be handled.
+
+
+
 loyalty_customer = True
 total_bill = 124
 if loyalty_customer and total_bill > 100:
@@ -43,3 +48,4 @@ while count < len(favorites):
     count += 1
 
 num_list = [33,42,5,66,77,22,16,79,36,62,78,43,88,39,53,67,89,11]
+
