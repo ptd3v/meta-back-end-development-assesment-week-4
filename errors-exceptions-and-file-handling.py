@@ -1,5 +1,5 @@
 #Syntax Errors, tend to be misspelling or typo. Minimal impact, most IDE's can see it.
-#Exception Errors, known errors that need to be handled.
+#Exception Errors, known errors that need to be handled. E.g Trying to divide by 0.
 
 
 
