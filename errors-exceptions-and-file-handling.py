@@ -1,7 +1,22 @@
 #Syntax Errors, tend to be misspelling or typo. Minimal impact, most IDE's can see it.
 #Exception Errors, known errors that need to be handled. E.g Trying to divide by 0.
 
+def divide_by(a,b):
+    return a / b
 
+print(divide_by(10,2))
+
+#Using the exception as e, we can print the specific error.
+try:
+    print(divide_by(10,0)) #division by 0 is not possible.
+except Exception as e:
+    print("Something went wrong:", e)
+
+print(divide_by(10,2))
+
+
+
+#### ####
 
 loyalty_customer = True
 total_bill = 124
