@@ -10,11 +10,11 @@ print(divide_by(10,2))
 try:
     print(divide_by(10,0)) #division by 0 is not possible.
 except Exception as e:
-    print("Something went wrong:", e)
+    print("Something went wrong:", e)   
+except ZeroDivisionError as e:
+    print("This will give a specific Error", e)
 
 print(divide_by(10,2))
-
-
 
 #### ####
 
