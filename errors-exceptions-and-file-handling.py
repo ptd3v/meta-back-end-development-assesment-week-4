@@ -48,7 +48,7 @@ if not current:
     current = True
     print('Turning light on')
     
-# 3
+#3
 current = False
 if current:
     current = False
