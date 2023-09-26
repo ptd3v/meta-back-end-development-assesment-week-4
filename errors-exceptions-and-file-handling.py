@@ -1,3 +1,9 @@
+#File Handling
+#open (<file-name>, r)  
+#open (<file-name>, r+)  
+#open (<file-name>, w)  
+#open (<file-name>, a)  
+
 #Syntax Errors, tend to be misspelling or typo. Minimal impact, most IDE's highlight it.
 #Exception Errors, known errors that need to be handled. E.g Trying to divide by 0.
 
