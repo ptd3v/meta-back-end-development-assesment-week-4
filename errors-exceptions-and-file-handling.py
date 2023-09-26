@@ -1,8 +1,16 @@
-#File Handling
-#open (<file-name>, r)  
-#open (<file-name>, r+)  
-#open (<file-name>, w)  
-#open (<file-name>, a)  
+#File Handling. Two possible outputs, text (default) or binary(rb, rb+, wb, ab).
+#open (<file-name>, r/ r+/ w/ a)
+
+#Basic file opening commands.
+file = open('test.txt', mode = 'r')
+data = file.readlines()
+print(data)
+file.close()
+
+#With open is better at exception handling and will auto-close the file.
+with open('test.txt', mode = 'r') as file:
+    data = file.readlines()
+    print(data)
 
 #Syntax Errors, tend to be misspelling or typo. Minimal impact, most IDE's highlight it.
 #Exception Errors, known errors that need to be handled. E.g Trying to divide by 0.
