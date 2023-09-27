@@ -1,5 +1,5 @@
 #File Handling. Two possible outputs: text (default) or binary(rb, rb+, wb, ab).
-#File open options are: r/ r+/ w/ and a.
+#File open options are: r/, r+/, w/, and a.
 
 #Basic file opening commands.
 file = open('test.txt', mode = 'r')
