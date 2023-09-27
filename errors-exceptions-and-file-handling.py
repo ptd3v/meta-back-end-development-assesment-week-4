@@ -1,6 +1,10 @@
-#File Handling. Two possible outputs: text (default) or binary(rb, rb+, wb, ab).
-#File open options are: r/, r+/, w/, and a.
+#Creating Files
+#This will create a new document called 'newfile.txt'.
+with open('newfile.txt', 'w') as file:
+    file.write("This is a newly created file")
 
+
+#File Handling. File open options are: r/(read), r+/ (read + write), w/ (write), and a (append). Two possible outputs: text (default) or binary(rb, rb+, wb, ab).
 #Basic file opening commands.
 file = open('test.txt', mode = 'r')
 data = file.readlines()
