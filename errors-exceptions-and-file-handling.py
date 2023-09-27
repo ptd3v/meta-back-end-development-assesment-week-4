@@ -1,8 +1,18 @@
 #Creating Files
 #This will create a new document called 'newfile.txt'.
 with open('newfile.txt', 'w') as file:
-    file.write("This is a newly created file")
+    file.writelines(["This is a newly created file", "\nThis is a second line to the file."])
 
+with open('newfile.txt', 'a') as file:
+    file.writelines(["\n\nAppended a new line", "\nAnd added a new, new row."])
+
+#Adding exception handling to file creation
+try:
+    with open('newfile.txt', 'a') as file:
+        file.writelines(["\n\nAppended a new line", "\nAnd added a new, new row."])
+
+except FileNotFoundError as e:
+    Print("File not found!")
 
 #File Handling. File open options are: r/(read), r+/ (read + write), w/ (write), and a (append). Two possible outputs: text (default) or binary(rb, rb+, wb, ab).
 #Basic file opening commands.
