@@ -8,11 +8,12 @@ with open('newfile.txt', 'a') as file:
 
 #Adding exception handling to file creation
 try:
-    with open('newfile.txt', 'a') as file:
+    #Added sample/ to create an error.
+    with open('sample/newfile.txt', 'a') as file:
         file.writelines(["\n\nAppended a new line", "\nAnd added a new, new row."])
 
 except FileNotFoundError as e:
-    Print("File not found!")
+    print("File not found!", e)
 
 #File Handling. File open options are: r/(read), r+/ (read + write), w/ (write), and a (append). Two possible outputs: text (default) or binary(rb, rb+, wb, ab).
 #Basic file opening commands.
