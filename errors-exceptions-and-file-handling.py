@@ -1,5 +1,4 @@
-#Creating Files
-#This will create a new document called 'newfile.txt'.
+#Creating Files: This will create a new document called 'newfile.txt'.
 with open('newfile.txt', 'w') as file:
     file.writelines(["This is a newly created file", "\nThis is a second line to the file."])
 
