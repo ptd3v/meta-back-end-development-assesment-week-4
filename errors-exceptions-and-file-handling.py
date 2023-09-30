@@ -5,7 +5,7 @@ with open('newfile.txt', 'w') as file:
 with open('newfile.txt', 'a') as file:
     file.writelines(["\n\nAppended a new line", "\nAnd added a new, new row."])
 
-#Adding exception handling to file creation
+#Adding exception handling to file creation.
 try:
     #Added sample/ to create an error.
     with open('sample/newfile.txt', 'a') as file:
