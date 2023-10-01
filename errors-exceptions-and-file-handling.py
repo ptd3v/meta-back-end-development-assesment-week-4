@@ -36,7 +36,7 @@ print(divide_by(10,2))
 
 #Using the exception as e, we can print the specific error.
 try:
-    print(divide_by(10,0)) #division by 0 is not possible.
+    print(divide_by(10,0)) #Division by 0 is not possible.
 except Exception as e:
     print("Something went wrong:", e)   
 except ZeroDivisionError as e:
