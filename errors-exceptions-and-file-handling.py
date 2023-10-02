@@ -1,3 +1,7 @@
+#Reading Files
+readlines() #Reads and returns the file data as an ordered list. Allows iteration for searching.
+read() #Reads and returns the file data as a string.
+
 #Creating Files: This will create a new document called 'newfile.txt'.
 with open('newfile.txt', 'w') as file:
     file.writelines(["This is a newly created file", "\nThis is a second line to the file."])
