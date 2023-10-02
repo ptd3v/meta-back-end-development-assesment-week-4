@@ -13,6 +13,14 @@ with open ('test.txt', 'r') as file: #Open sample.txt in read mode and assign to
     for x in data: #Can iterate through loops with a list.
         print(x)
 
+#Read a file and print a random line, e.g choosing the name of a child or pet.
+import random
+f = open("test.txt", "r") #2 Parameters, the document name as a string and the read/ write format.
+f_content = f.read()
+f_content_list = f_content.split("\n")
+f.close()
+print(random.choice(f_content_list))
+
 #### ####
 
 #Creating Files: This will create a new document called 'newfile.txt'.
