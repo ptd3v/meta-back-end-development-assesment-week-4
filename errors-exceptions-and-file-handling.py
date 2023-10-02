@@ -2,6 +2,19 @@
 readlines() #Reads and returns the file data as an ordered list. Allows iteration for searching.
 read() #Reads and returns the file data as a string.
 
+with open ('test.txt', 'r') as file: #Open sample.txt in read mode and assign to the variable 'file'.
+    print(file.read())
+    print(file.read(10)) #Print only 10 characters
+    print(file.readline()) #Print only the first line of the file.
+
+    #Printed as a list, can be assigned to a variable. E.g Data.
+    print(file.readlines())
+    data = file.readlines()
+    for x in data: #Can iterate through loops with a list.
+        print(x)
+
+#### ####
+
 #Creating Files: This will create a new document called 'newfile.txt'.
 with open('newfile.txt', 'w') as file:
     file.writelines(["This is a newly created file", "\nThis is a second line to the file."])
