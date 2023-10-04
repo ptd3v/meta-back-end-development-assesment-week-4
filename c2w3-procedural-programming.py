@@ -27,3 +27,7 @@ def palindrome(str):
     return True
 
 print(palindrome('racecar'))
+
+#Exercise: Make a cup of coffee
+#Logical process: Water (Hot/ Cold), Instant Coffee, Milk, Sugar.
+
