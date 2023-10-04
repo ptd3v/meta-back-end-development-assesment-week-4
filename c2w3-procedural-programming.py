@@ -37,5 +37,8 @@ print(palindrome('racecar'))
 #Notes: Pseudocode describes the algorithmic flow and does not have instructions that may be confusing to read.
 
 #Refactoring:
-#A constant time algorithm means that the speed of an operation will always be the same. E.g Dictionaries with an indexed entry.
-#A linear time algorithm means that the speed of an operation will decrease as the input increases.
+#A constant time algorithm means that the speed of an operation will always be the same. E.g Dictionaries accessing an element in an array by its index.
+#A linear time algorithm means that the speed of an operation will decrease as the input increases. e.g Searching for a specific value in an unsorted list.
+#Logarithmic Time: Grows with the size of the input data. E.g Binary search in a sorted list. Logarithmic time complexity is considered very efficient.
+
+#Functional Programming
