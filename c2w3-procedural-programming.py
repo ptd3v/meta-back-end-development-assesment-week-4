@@ -29,5 +29,9 @@ def palindrome(str):
 print(palindrome('racecar'))
 
 #Exercise: Make a cup of coffee
-#Logical process: Water (Hot/ Cold), Instant Coffee, Milk, Sugar.
 
+#Logical process:
+#Ingredients required: Cup, Hot Water, Instant Coffee.
+#Optional: Milk, Cream, Sugar.
+#Output: Cup of Coffee
+#Notes: Pseudocode describes the algorithmic flow and does not have instructions that may be confusing to read.
