@@ -42,3 +42,9 @@ print(palindrome('racecar'))
 #Logarithmic Time: Grows with the size of the input data. E.g Binary search in a sorted list. Logarithmic time complexity is considered very efficient.
 
 #Functional Programming
+#Pure functions are functions that always provide the same result, regardless of how many times it's run.
+#Pure functions are used in functional programming to assure the integrity of data outside the scope of the pure function.
+
+#Traditional Function:
+
+#Modified to be a Pure Function:
