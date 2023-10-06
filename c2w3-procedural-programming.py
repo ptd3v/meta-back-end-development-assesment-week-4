@@ -52,3 +52,16 @@ def append(item):
 
 append(4)
 print(list)
+
+#Recursion: Is a function that calls itself, similar to a for loop.
+#Advantages: Easy to follow, problems broken down. Can be hard to follow, debug and can be memory efficient inefficient.
+#Disasdvantages: 
+def find_factoral(n):
+    if n == 1:
+      return 1
+    else:
+       return n * find_factoral(n - 1)
+    
+print(find_factoral(5))
+
+#Recursion example: Towers of Hanoi
