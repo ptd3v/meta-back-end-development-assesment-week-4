@@ -45,6 +45,10 @@ print(palindrome('racecar'))
 #Pure functions are functions that always provide the same result, regardless of how many times it's run.
 #Pure functions are used in functional programming to assure the integrity of data outside the scope of the pure function.
 
-#Traditional Function:
+#Traditional Function, modified to be a Pure Function:
+list = [0,1,2,3]
+def append(item):
+  return list.append(item)
 
-#Modified to be a Pure Function:
+append(4)
+print(list)
