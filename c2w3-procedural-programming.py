@@ -31,9 +31,7 @@ print(palindrome('racecar'))
 #Exercise: Make a cup of coffee
 
 #Logical process:
-#Ingredients required: Cup, Hot Water, Instant Coffee.
-#Optional: Milk, Cream, Sugar.
-#Output: Cup of Coffee
+#Ingredients required: Cup, Hot Water, Instant Coffee. Optional: Milk, Cream, Sugar. Output: Cup of Coffee
 #Notes: Pseudocode describes the algorithmic flow and does not have instructions that may be confusing to read.
 
 #Refactoring:
