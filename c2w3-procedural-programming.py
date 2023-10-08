@@ -14,8 +14,6 @@ def sum(a, b):
 print(sum(1,2))
 print(sum(3,4))
 
-#### ####
-
 #Algorithms
 def palindrome(str):
     startIndex = 0
