@@ -61,3 +61,14 @@ def find_factoral(n):
 print(find_factoral(5))
 
 #Recursion example: Towers of Hanoi
+def hanoi(n, start, middle, end):
+    # Base Condition
+    if n == 1:
+        print("Disk %i moves from tower %s to tower %s." %(n, start, end))
+    else:
+        hanoi(n-1,start,middle,end)
+        print("Disk %i moves from tower %s to tower %s." %(n, start, end))
+        hanoi(n-1, middle,end,start)
+
+# Actual function call
+hanoi(10, "A", "B", "C")
