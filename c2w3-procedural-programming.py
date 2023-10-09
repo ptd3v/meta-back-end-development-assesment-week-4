@@ -72,3 +72,9 @@ def hanoi(n, start, middle, end):
 
 # Actual function call
 hanoi(10, "A", "B", "C")
+
+#Reversing a string in Python [start:stop:step]
+word = "Reversal"
+reversal = word [::-1]
+
+print(reversal)
