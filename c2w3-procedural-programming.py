@@ -78,3 +78,23 @@ word = "Reversal"
 reversal = word [::-1]
 
 print(reversal)
+
+#Map functions
+map() #Map takes two functions, a function and the data source.
+menu = ["Sports", "Fitness", "Exercise", "Dogs", "Cats", "Spoons"]
+
+def search(letterc):
+    if letterc[0] == "C":
+        return letterc
+
+map_search = map(search,menu) #Map iterates through a list more efficiently, printing all results correct and incorrect (as none).
+print(map_search)
+for x in map_search:
+    print(x)
+
+filter_search = filter(search,menu) #Filter does the same, but only shows values with a 'True' result.
+print(filter_search)
+for x in filter_search:
+    print(x)
+
+#Comprehensions
