@@ -151,3 +151,12 @@ for items in gen_obj:
     print(items, end = " ")
 
 #Mapping Dictionaries
+
+#Exam Questions
+def sum(n):
+   if n == 1: #Ignore +1.
+       return 0
+   return n + sum(n-1) #Take 5 and add it to n-1(4). Repeat, until 5 + 4 + 3 + 2 = 14.
+
+a = sum(5) #Place 5 into the sum def.
+print(a) #Answer 14. 
