@@ -2,7 +2,7 @@
 #Advantages: Easy to Learn/ Understand. Reusable.
 #Disadvantages: Hard to maintain/ Extend. Exposed Data.
 
-#Inefficient Code
+#In-efficient Code
 a = 1
 b = 2
 sum = a + b
