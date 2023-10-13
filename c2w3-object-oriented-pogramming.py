@@ -11,3 +11,4 @@
 #Inheritance - Creating a new class from an old one. E.g A parent class, can have a child class which is a copy.
 #Polymorphism - A single function can act differently depending on te object. E.g str+str concatenates, 1+2 adds.
 #Encapsulation - Prevents access to variables and methods by wrapping them in a class.
+#Abstraction - Ability to hide implementation details for data security. E.g You can run functions, you don't need to know how they work.
