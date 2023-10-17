@@ -13,4 +13,23 @@
 #Encapsulation - Prevents access to variables and methods by wrapping them in a class.
 #Abstraction - Ability to hide implementation details for data security. E.g You can run functions, you don't need to know how they work.
 
-#
+#Python classes and instances
+#Objects - Everything in Python is an object.
+#Classes - Creating a class, creates a new type of object.
+#Instances - An instance, is a copy of a class.
+#Variables - 
+#Methods - 
+#Attributes - Variables declared in a class
+#Behaviours - Methods in a class
+
+#Class and Instance Example
+class MyClass: #Class object
+  a = 5
+  print("Hello")
+    def hello():
+      print("Hello World!") #Method
+  pass #pass is a placeholder, it executes nothing.
+
+newinstance  = MyClass() #Instance object
+print(MyClass.a) #Reference a class object
+print(newinstance.a) #Reference an instance object
