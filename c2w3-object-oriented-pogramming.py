@@ -33,3 +33,23 @@ class MyClass: #Class object
 newinstance  = MyClass() #Instance object
 print(MyClass.a) #Reference a class object
 print(newinstance.a) #Reference an instance object
+
+#Execise: Define a Class
+class House: #Class
+    num_rooms = 5 #Attribute
+    bathrooms = 2 #Attribute
+    def cost_evaluation(self):
+        print(self.num_rooms) #Function
+        pass #Stock Holder Text
+
+house = House() #Instance of a class, an object.
+print(house.num_rooms)
+print(House.num_rooms)
+
+house.num_rooms = 7 #Updating the 'house' instance, NOT the class 'House'.
+print(house.num_rooms)
+print(House.num_rooms)
+
+House.num_rooms = 7 #Updating the Class, this will also update the instance (object).
+print(house.num_rooms)
+print(House.num_rooms)
