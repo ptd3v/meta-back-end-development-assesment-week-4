@@ -54,3 +54,4 @@ House.num_rooms = 7 #Updating the Class, this will also update the instance (obj
 print(house.num_rooms)
 print(House.num_rooms)
 
+#Instantiate a custom Object
