@@ -55,3 +55,13 @@ print(house.num_rooms)
 print(House.num_rooms)
 
 #Instantiate a custom Object
+#Referencing the same variables and methods in different instances can produce different outcomes.
+#Meaning that the code is reusable.
+
+class Recipe():
+    def __new__(cls) -> Self: #cls = placeholder for passing class as a new argument
+        pass #The __new__ method creates an empty object
+
+#Two special methods in python.
+#First is 'New' method which creates and returns a new empty object.
+#Second is __init__, similar to a constructor in other languages.
