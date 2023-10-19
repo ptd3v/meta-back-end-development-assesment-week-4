@@ -61,7 +61,26 @@ print(House.num_rooms)
 class Recipe():
     def __new__(cls) -> Self: #cls = placeholder for passing class as a new argument
         pass #The __new__ method creates an empty object
+    def __init__(self) -> None: #Takes the object created by the _new_ method and initialises it.
+        pass #The Self text is a placeholder for self-reference by the instance object.
 
 #Two special methods in python.
 #First is 'New' method which creates and returns a new empty object.
 #Second is __init__, similar to a constructor in other languages.
+
+class Recipe(): #Use the state of an object to my advantage.
+    def __init__(self, dish, items, time) -> None:
+        self.dish = dish #Three new variables
+        self.items = items #To hold the recipe ingredients
+        self.time = time
+
+    def contents(self): #Produce a string out of this information
+        print("The " + self.dish + "has " + str(self.items) + "and takes " + str(self.time) + "min to prepare")
+
+pizza = Recipe("Pizza", ["cheese", "bread", "tomato"], 45)
+pasta = Recipe("Pasta", ["penne", "sause"], 55)
+
+print(pasta.items) #Prints onlt the items
+print(pizza.items)
+
+print(pizza.contents()) #Prints the entire statement.
