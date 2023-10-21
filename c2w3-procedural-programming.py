@@ -1,6 +1,6 @@
-#Procedural Programming: Course 2/9. Week 3/5.
-#Advantages: Easy to Learn/ Understand. Reusable.
-#Disadvantages: Hard to maintain/ Extend. Exposed Data.
+# Procedural Programming: Course 2/9. Week 3/5.
+# Advantages: Easy to Learn/ Understand. Reusable.
+# Disadvantages: Hard to maintain/ Extend. Exposed Data.
 
 #Inefficient Code
 a = 1
