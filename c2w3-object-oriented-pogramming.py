@@ -78,7 +78,7 @@ class Recipe(): #Use the state of an object to my advantage.
         print("The " + self.dish + "has " + str(self.items) + "and takes " + str(self.time) + "min to prepare")
 
 pizza = Recipe("Pizza", ["cheese", "bread", "tomato"], 45)
-pasta = Recipe("Pasta", ["penne", "sause"], 55)
+pasta = Recipe("Pasta", ["penne", "sause"], 65)
 
 print(pasta.items) #Prints onlt the items
 print(pizza.items)
