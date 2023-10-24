@@ -80,6 +80,18 @@ class Recipe(): #Use the state of an object to my advantage.
 pizza = Recipe("Pizza", ["cheese", "bread", "tomato"], 45)
 pasta = Recipe("Pasta", ["penne", "sause"], 65)
 
+# Instantiate a custom Object Exercise
+class MyFirstClass():
+    print("Who wrote this?")
+    index = "Author-Book"
+
+    def hand_list(self, philosopher, book):
+        print(MyFirstClass.index)
+        print(philosopher + " wrote the book: " + book)
+
+whodunnit = MyFirstClass()
+whodunnit.hand_list("Sun Tzu", "The Art of War")
+
 print(pasta.items) #Prints onlt the items
 print(pizza.items)
 
