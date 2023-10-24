@@ -96,3 +96,5 @@ print(pasta.items) #Prints onlt the items
 print(pizza.items)
 
 print(pizza.contents()) #Prints the entire statement.
+
+# Instance Methods
