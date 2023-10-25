@@ -97,4 +97,12 @@ print(pizza.items)
 
 print(pizza.contents()) #Prints the entire statement.
 
+#Class = Cake Recipe/ House Blueprint
+#Object = Object is a cake made using that recipe/ House
+
 # Instance Methods
+class PaySlips: #Class
+
+name #Variable, Function
+payStatus #Variable, Function
+amount #Variable, Function
