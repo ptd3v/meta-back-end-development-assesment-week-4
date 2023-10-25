@@ -102,10 +102,28 @@ print(pizza.contents()) #Prints the entire statement.
 
 # Instance Methods
 class PaySlips: #Class
-  #Variable
-  #Variable
-  #Variable
+  def __init__(self, name, payment, amount) -> None:
+    #self.variable = variable
+    self.name = name
+    self.payment = payment
+    self.amount = amount
 
-name # Function
-payStatus # Function
-amount # Function
+  def pay(self): #Function 1
+    self.payment = "yes"
+
+  def status(self): #Function 2, contains an If/Else Statement
+    if self.payment == "yes":
+      return self.name + " is paid " + str(self.amount)
+    else:
+      return self.name + " is not paid"
+
+#Two Instances
+nathan = PaySlips("Nathan", "No", 1000)
+jerry = PaySlips("Jerry", "Yes", 2000)
+
+print(nathan.status(), "\n" ,  jerry.status())
+
+jerry.pay() #Call the function pay()
+
+print("New Payments Added: ", "\n", nathan.status(), "\n" ,  jerry.status())
+
