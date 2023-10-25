@@ -102,7 +102,10 @@ print(pizza.contents()) #Prints the entire statement.
 
 # Instance Methods
 class PaySlips: #Class
+  #Variable
+  #Variable
+  #Variable
 
-name #Variable, Function
-payStatus #Variable, Function
-amount #Variable, Function
+name # Function
+payStatus # Function
+amount # Function
