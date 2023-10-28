@@ -126,4 +126,3 @@ print(nathan.status(), "\n" ,  jerry.status())
 jerry.pay() #Call the function pay()
 
 print("New Payments Added: ", "\n", nathan.status(), "\n" ,  jerry.status())
-
