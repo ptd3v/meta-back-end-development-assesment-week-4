@@ -127,3 +127,16 @@ jerry.pay() #Call the function pay()
 
 print("New Payments Added: ", "\n", nathan.status(), "\n" ,  jerry.status())
 
+#Multiple Inheritance
+# Example of multiple inheritance
+class A:
+   a = 1
+  
+class B:
+   b = 2  
+  
+class C(A, B):
+   pass
+
+c = C()
+print(c.a, c.b) # The output in 2 1.
