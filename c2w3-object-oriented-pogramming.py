@@ -153,3 +153,21 @@ class C(B):
 
 c = C()
 print(c.a) # The output is 2 because C derives from the immediate super class of C, and that's B.
+
+# Built-in functions, issubclass ()
+print(issubclass(A,B))
+print(issubclass(B,A))
+# This can be read as: “Is B subclass of A?“ You can see the result is "True" in the second case where child B is the subclass.
+
+#isinstance()
+Class A:
+	pass
+Class B(A):
+	pass
+
+b = B()
+print(isinstance(b,B))
+print(isinstance(b,B)) # Output will be true
+
+# The super() function helps you to achieve this and add the initialization of base class with the derived class.
+#I don't really understand this atall, come back to it later.
