@@ -140,3 +140,16 @@ class C(A, B):
 
 c = C()
 print(c.a, c.b) # The output in 2 1.
+
+#Multi-level inheritance
+class A:
+   a = 1
+
+class B(A):
+   a = 2
+
+class C(B):
+   pass
+
+c = C()
+print(c.a) # The output is 2 because C derives from the immediate super class of C, and that's B.
