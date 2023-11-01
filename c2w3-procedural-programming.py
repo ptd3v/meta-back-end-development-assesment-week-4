@@ -151,7 +151,6 @@ for items in gen_obj:
     print(items, end = " ")
 
 #Mapping Dictionaries
-
 #Exam Questions
 def sum(n):
    if n == 1: #Ignore +1.
