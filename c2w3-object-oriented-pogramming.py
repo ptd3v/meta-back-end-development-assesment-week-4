@@ -171,3 +171,11 @@ print(isinstance(b,B)) # Output will be true
 
 # The super() function helps you to achieve this and add the initialization of base class with the derived class.
 #I don't really understand this atall, come back to it later.
+
+#Initialising an abstract class:
+from abc import ABC, abstractmethod
+
+class abstractClass(ABC):
+	@abstractmethod
+	def exampleAbstractMethod(self):
+		pass
