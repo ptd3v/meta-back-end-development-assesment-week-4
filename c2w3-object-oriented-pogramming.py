@@ -179,3 +179,4 @@ class abstractClass(ABC):
 	@abstractmethod
 	def exampleAbstractMethod(self):
 		pass
+
