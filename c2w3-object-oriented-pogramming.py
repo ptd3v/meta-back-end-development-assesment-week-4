@@ -186,3 +186,13 @@ class abstractClass(ABC):
 # 2 - Multiple Inheritance - Child > Multiple Parent Classes
 # 3 - Multi Level Inhertiance - Child Class > Child Class > Parent Class
 # 4 - Hierachical Inheritance - Several Child Classes > Single Parent
+
+#Useful Function (help)
+class A:
+	pass
+class B(A):
+	pass
+class C(B):
+	pass
+
+print (help(c))
