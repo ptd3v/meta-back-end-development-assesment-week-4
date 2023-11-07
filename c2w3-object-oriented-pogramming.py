@@ -180,3 +180,9 @@ class abstractClass(ABC):
 	def exampleAbstractMethod(self):
 		pass
 
+# Method Resolution Order (Determines the order a method/ attribute is used)
+# 4 Types of Inheritance
+# 1 - Simple Inherance - Child Class > Parent Class
+# 2 - Multiple Inheritance - Child > Multiple Parent Classes
+# 3 - Multi Level Inhertiance - Child Class > Child Class > Parent Class
+# 4 - Hierachical Inheritance - Several Child Classes > Single Parent
