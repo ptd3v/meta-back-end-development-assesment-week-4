@@ -194,5 +194,79 @@ class B(A):
 	pass
 class C(B):
 	pass
+print (help(c)) #Prints the MRO
 
-print (help(c))
+MRO Example:
+class A:
+    def b(self):
+        return "Function inside A"
+
+class B:
+    def b(self):
+        return "Function inside B"
+
+class C(A, B):
+    def b(self):
+        return "Function inside C"
+    pass
+
+class D(C):
+    pass
+
+d = D()
+print(d.b()) # This will print "Funtion inside C"
+#Why? D does not have a b function (d.b), but C does, it goes up one level to find the function.
+
+# MRO Example 2:
+class A:
+    def d(self):
+        return "Function inside A"
+
+class B:
+    def d(self):
+        return "Function inside B"
+
+
+class C:
+    def d(self):
+        return "Function inside C"
+
+
+class D(A, B):
+    def d(self):
+        return "Function inside D"
+
+
+class E(B, C):
+    def d(self):
+        return "Function inside E"
+
+
+class F(E,D,C):
+    pass
+
+f = F()
+print(f.d())
+print(F.mro())
+
+# Output
+Function inside E
+[<class '__main__.F'>, <class '__main__.E'>, <class '__main__.D'>, <class '__main__.A'>, <class '__main__.B'>, <class '__main__.C'>, <class 'object'>]
+
+# MRO Error Example:
+class A:
+    def c(self):
+        return "Function inside A"
+
+class B(A):
+    def c(self):
+        return "Function inside B"
+
+class C(A,B):
+    pass
+
+class D(C):
+    pass
+
+d = D()
+print(d.a) #Will throw an error, cannot use the (A,B) from class C(A,B).
