@@ -29,6 +29,7 @@ for x,num in enumerate(num_list):
     print('Number found at ', x)
     #Step 8: Break when found
     break
+
 #Step 7: Print Count Value
 print(count)
 
