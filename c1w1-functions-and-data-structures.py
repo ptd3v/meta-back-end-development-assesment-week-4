@@ -149,5 +149,4 @@ def sum_a(**kwargs):
     for k, v in kwargs.items():
         sum_b += v
     return round(sum_b, 2)
-
 print(sum_a(Beans = 1.99, Toast = 2.99, Tea = 3.99))
