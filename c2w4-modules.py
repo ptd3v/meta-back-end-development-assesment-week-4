@@ -40,3 +40,13 @@ from math import * # This will import all of the functions of math
 # If you from math import *, all math names are available without the dot notation.
 
 from math import nonsense #Will throw an error as this function does not exist in math.
+
+# Namespaces and Scopes
+# Namespaces - Maps names to objects
+# Scope is the textial region of a python program with an accessable namespace.
+# The are 4 scopes in Python: Local, Enclosed, Global and Built-In.
+# 1. Local: A variable inside a function is local.
+# 2. Global: A function outside of a variable is global.
+# Working with global variables in not common in large software projects.
+# Access Modifiers, Concurrency and Memory Allocation are better handled as local variables.
+
