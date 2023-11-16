@@ -50,3 +50,4 @@ from math import nonsense #Will throw an error as this function does not exist i
 # Working with global variables in not common in large software projects.
 # Access Modifiers, Concurrency and Memory Allocation are better handled as local variables.
 
+# Nonlocal Function - Used within nested functions, nonlocal is used to access and modify variables from the nearest enclosing scope that is not global.
