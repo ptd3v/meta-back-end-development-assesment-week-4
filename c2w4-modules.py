@@ -51,18 +51,18 @@ from math import nonsense #Will throw an error as this function does not exist i
 # Access Modifiers, Concurrency and Memory Allocation are better handled as local variables.
 
 # Nonlocal Function - Used within nested functions, nonlocal is used to access and modify variables from the nearest enclosing scope that is not global.
-def a(): #3)Once called assign 'Elephants' to the local variable
-    animal = "bird"
-    def b(): #4)Then declare the inner function 'b'
+def a(): #3) Once called, assign 'B' to the local variable.
+    animal = "B" #Local value. Commenting out this line will throw an error. I dont entirely understand why.
+    def b(): #4) Then declare the inner function b().
         nonlocal animal
-        animal = "duck"
+        animal = "C" #7)Once inside b(), you declare the nonlocal animal is now 'C'.
         print ("Inside nest function: "+animal)
 
-    print ("Before calling function: "+animal)
-    b()
-    print ("Print after nested function: "+animal)
+    print ("Before calling function: "+animal) #5)Print the local value, which is 'B'.
+    b() #6) Call the b() function, run this before printing the next line.
+    print ("Print after nested function: "+animal) #8)Print the current animal, which is still C.
 
-animal = "swan" #1)Global variable
-a() #2) Call this function
-print("Global Animal: " +animal)
+animal = "A" #1) Global variable is A.
+a() #2) Call the a() function
+print("Global Animal: " +animal) #Will print A, as the global variable was not affected by the local changes.
     
