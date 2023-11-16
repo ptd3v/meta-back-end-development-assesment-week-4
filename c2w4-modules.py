@@ -51,3 +51,18 @@ from math import nonsense #Will throw an error as this function does not exist i
 # Access Modifiers, Concurrency and Memory Allocation are better handled as local variables.
 
 # Nonlocal Function - Used within nested functions, nonlocal is used to access and modify variables from the nearest enclosing scope that is not global.
+def a(): #3)Once called assign 'Elephants' to the local variable
+    animal = "bird"
+    def b(): #4)Then declare the inner function 'b'
+        nonlocal animal
+        animal = "duck"
+        print ("Inside nest function: "+animal)
+
+    print ("Before calling function: "+animal)
+    b()
+    print ("Print after nested function: "+animal)
+
+animal = "swan" #1)Global variable
+a() #2) Call this function
+print("Global Animal: " +animal)
+    
