@@ -77,3 +77,4 @@ import Example
 importlib.reload(Example) # By using the reload function, we can run the external script as many times as we like.
 importlib.reload(Example)
 importlib.reload(Example)
+importlib.reload(Example)
