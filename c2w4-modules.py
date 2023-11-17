@@ -65,4 +65,15 @@ def a(): #3) Once called, assign 'B' to the local variable.
 animal = "A" #1) Global variable is A.
 a() #2) Call the a() function
 print("Global Animal: " +animal) #Will print A, as the global variable was not affected by the local changes.
-    
+
+#Reload()
+#Assumption - sample.py external file with "Hello, world" written into it.
+import Example # The .py extension not required.
+import Example # Multiple import statements will not work, it will only load once.
+
+import importlib # importlib contains the reload function.
+import Example
+
+importlib.reload(Example) # By using the reload function, we can run the external script as many times as we like.
+importlib.reload(Example)
+importlib.reload(Example)
