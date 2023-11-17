@@ -78,3 +78,26 @@ importlib.reload(Example) # By using the reload function, we can run the externa
 importlib.reload(Example)
 importlib.reload(Example)
 importlib.reload(Example)
+
+#filechanges.py
+import importlib
+import Example
+
+def changes():
+    try:
+        importlib.reload(Example)
+        Example.print_changes()
+    except:
+        pass
+
+for i in range(5):
+    changes()
+    input("Hit enter to reload.. ")
+
+#Example.py
+import os
+
+def print_changes():
+    contents = os.listdir(r'C:\Users\Tovey\Dropbox\GitHub') # The r is so the interpreter reads the path as raw string.
+    print("Current  Directory Contents: ")
+    print(contents)
