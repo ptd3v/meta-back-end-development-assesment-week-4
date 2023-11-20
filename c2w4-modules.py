@@ -101,3 +101,8 @@ def print_changes():
     contents = os.listdir(r'C:\Users\Tovey\Dropbox\GitHub') # The r is so the interpreter reads the path as raw string.
     print("Current  Directory Contents: ")
     print(contents)
+
+#Differences between Modules, libraries and packages.
+# Modules: A module is a single file.
+# Packages: A package is a collection of modules.
+# Libraries: A library is a collection of packages.
