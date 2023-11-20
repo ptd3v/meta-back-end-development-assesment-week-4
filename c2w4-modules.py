@@ -106,3 +106,11 @@ def print_changes():
 # Modules: A module is a single file.
 # Packages: A package is a collection of modules.
 # Libraries: A library is a collection of packages.
+
+# By default, pip is installed with Python. However to check if python is installed, you can run the following commands, either in the console or the IDE terminal:
+py -m ensurepip --upgrade # windows
+python -m ensurepip --upgrade # mac
+
+# To install a third party packages such as 'requests', run the following:
+py -m pip install requests # Windows
+python3 -m pip install requests # mac
