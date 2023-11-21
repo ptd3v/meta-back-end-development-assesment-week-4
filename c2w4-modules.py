@@ -114,3 +114,73 @@ python -m ensurepip --upgrade # mac
 # To install a third party packages such as 'requests', run the following:
 py -m pip install requests # Windows
 python3 -m pip install requests # mac
+
+#Popular package examples:
+import numpy as np #1) numpy
+a = np.zeros(10)
+print(a) # Creates an array with n number of 0's in it. For this example, 10 zeroes.
+
+b = np.full((2,10), 0.7)
+print(b) # creates a two-dimensional matrix of dimensions 2 x 10 consisting only of the values 0.7
+
+c = np.linspace(0,25,7)
+print(c) # Divides the values between 0 and 25 in 7 equal parts.
+
+print(type(c))
+
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.] #The output
+[[0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7]
+ [0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7]] 
+[ 0.          4.16666667  8.33333333 12.5        16.66666667 20.83333333  25.        ]
+<class 'numpy.ndarray'> #All class types in numPy will be 'ndarray'. It it NumPy exclusive and a far more efficient lsit substitute.
+
+----
+
+import pandas as pd # 2) Pandas
+
+a = pd.DataFrame({'Animals': ['Dog','Cat','Lion','Cow','Elephant'],
+                    'Sounds':['Barks','Meow','Roars','Moo','Trumpet']})
+print(a) #Prints the pandas dataframe
+print(a.describe()) # The describe() function in pandas that will give the count, frequency, top values and frequency among other values.
+
+b = pd.DataFrame({
+    "Letters" : ['a', 'b', 'c', 'd', 'e', 'f'],
+    "Numbers" : [12, 7, 9, 3, 5, 1]  })
+
+print(b.sort_values(by="Numbers")) #A sorting function that will provide a sorted table leading to shuffling of the data entries in the table.
+
+b = b.assign(new_values = b['Numbers']*3)
+print(b) # The assign() function takes the values present inside the table, performs an operation on them and creates a new variable called new_values, that is then added to the table.
+
+# 2) Output
+    Animals   Sounds
+0       Dog    Barks
+1       Cat     Meow
+2      Lion    Roars
+3       Cow      Moo
+4  Elephant  Trumpet
+
+       Animals Sounds
+count        5      5
+unique       5      5
+top        Dog  Barks
+freq         1      1
+
+  Letters  Numbers
+5       f        1
+3       d        3
+4       e        5
+1       b        7
+2       c        9
+0       a       12
+
+  Letters  Numbers  new_values
+0       a       12          36
+1       b        7          21
+2       c        9          27
+3       d        3           9
+4       e        5          15
+5       f        1           3
+
+----
+
