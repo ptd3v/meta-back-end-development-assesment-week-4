@@ -231,3 +231,4 @@ print(new_text)
 # In unit or component testing, the program tests specific individual components by isolating them.
 # System testing is testing all the software. 
 # Acceptance testing is when the stakeholders and a select few end-users are involved in acceptance testing.
+
