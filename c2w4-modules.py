@@ -214,3 +214,20 @@ print(new_text)
 
 ---- 
 
+#Popular Data Science Modules: numPy, sciPy, Matplotlib, Skikit-Learn.
+# NumPy: Numerical Python.
+# Matplotlib: Used for Data Visualisation. 
+# Skikit-Learn is used for predictive learning.
+# Pandas: Python Data Analysis. Used for cleaning, analysing and manipulating data. Most common uses are: Reading CSV files and .json objects.
+
+#Web Development:
+# Djano and Flask are two of the most popular examples:
+# Django: High level, fullstack* framework, encourages clean design and rapid development.
+# *Full stack meaning it has everyting required on its own: Features and Libraries, Security, Templating and Support.
+# Flask: Micro framework, simple and easy to use as a large library of addons.
+
+#Testing - The main types of testing:
+# Integration testing combines the unit tests and tests the flow of data from one component to another.
+# In unit or component testing, the program tests specific individual components by isolating them.
+# System testing is testing all the software. 
+# Acceptance testing is when the stakeholders and a select few end-users are involved in acceptance testing.
