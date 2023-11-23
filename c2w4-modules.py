@@ -237,3 +237,22 @@ print(new_text)
 # PyTest most popular, seconded by Robot. Testing modules are always striving for the goal of automation.
 # Selenium is a recent popular addition which is primarily for web applications.
 
+#PyTest is one of the most popular module for unit testing*.
+# *Unit testing is a testing method by which individual units of source code are tested to determine whether they are fit for use.
+
+#Testing File
+def add(a,b):
+    return a + b
+
+def sub(a,b):
+    return a - b
+
+#Pytest File
+import pvp
+import pytest
+
+def test_add():
+    assert pvp.add(1,2) == 3
+
+def test_sub():
+    assert pvp.sub(1,2) == -1
