@@ -240,6 +240,9 @@ print(new_text)
 #PyTest is one of the most popular module for unit testing*.
 # *Unit testing is a testing method by which individual units of source code are tested to determine whether they are fit for use.
 
+#PyTest is not a built-in module, it can be installed with the following command: pip install pytest
+#To upgrade pip, add the following: python.exe -m pip install --upgrade pip.
+
 #Testing File
 def add(a,b):
     return a + b
