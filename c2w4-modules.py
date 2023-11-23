@@ -232,3 +232,8 @@ print(new_text)
 # System testing is testing all the software. 
 # Acceptance testing is when the stakeholders and a select few end-users are involved in acceptance testing.
 
+#Testing
+# Automated testing is a reason that development is a smooth process. Manual testing is more thorough but unable to be done automatically, yet.
+# PyTest most popular, seconded by Robot. Testing modules are always striving for the goal of automation.
+# Selenium is a recent popular addition which is primarily for web applications.
+
