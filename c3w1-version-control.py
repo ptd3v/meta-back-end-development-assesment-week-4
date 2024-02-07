@@ -52,3 +52,9 @@ cd .. # Go back up to root.
 mkdir example1 # Creates a second folder.
 clear # Clears the screen. Just makes it easier to read.
 mv example1 example # Move Command. What do you want to move? To where?
+
+#Pipes
+cat example.txt #ConCATentate. Read the contents of the file in the terminal windows.
+wc example.txt -w # Will display the total words within the .txt file.
+ls | wc -w # The outcome would be two, becuase there are two files in this folder. example.txt and example1.txt.
+cat example.txt example1.txt | wc -w # Print the total word count within these two text files.
