@@ -40,3 +40,15 @@ ls # Will show all the files/ folders in root.
 cd etc # Change to the etc folder
 ls # List the files/ folders in the current directory.
 cd .. # Takes me back up to the parent directory
+
+# Creating and moving directories and files
+pwd # print working directory
+mkdir example # Create a new directory called 'Example'.
+cd example # Change directory. Enter the newly created folder.
+ls # Will display nothing as there is nothing in the new folder.
+touch example.txt # Creates a file called example.txt. Not windows.
+ls -l # Verify that the new files are in the folder.
+cd .. # Go back up to root.
+mkdir example1 # Creates a second folder.
+clear # Clears the screen. Just makes it easier to read.
+mv example1 example # Move Command. What do you want to move? To where?
