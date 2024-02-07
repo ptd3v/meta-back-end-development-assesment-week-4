@@ -15,7 +15,7 @@ pwd # Shows the full path of the current working directory.
 cp # Copy command, copies files or folders from one destination to another.
 mv # Move command, moves files or folders from one destination to another.
 
-#Flags example
+# Flags example
 ls #A command
 ls -l #Is a command with a flag added '-l', this changes the command to add fununctionality.
 man ls #Shows the user manual for the listed command. Great for learning command flags.
@@ -25,9 +25,18 @@ ls -la # Show all files and folders in the current directory, hidden and permiss
 less example.txt #Open the example.txt file. Press Q to exit.
 vim testshell.sh # Creates a new shell file called testshell.
 
-#Create a bash script
+# Create a bash script
 #!/bin/bash 
 echo "Hello, World" # Print to screen, press Esc to exit.
 :wq! # Save and exit the file.
 chmod 755 testshell.sh # Change the read/ write permissions of the file to allow execution.
 ./testshell.sh # Run the file, should print hello world.
+
+# Change Directories, List Contents
+pwd #print working directory
+cd / #Change current directory to Root
+pwd # Will now display /
+ls # Will show all the files/ folders in root.
+cd etc # Change to the etc folder
+ls # List the files/ folders in the current directory.
+cd .. # Takes me back up to the parent directory
