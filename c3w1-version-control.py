@@ -58,3 +58,4 @@ cat example.txt #ConCATentate. Read the contents of the file in the terminal win
 wc example.txt -w # Will display the total words within the .txt file.
 ls | wc -w # The outcome would be two, becuase there are two files in this folder. example.txt and example1.txt.
 cat example.txt example1.txt | wc -w # Print the total word count within these two text files.
+
