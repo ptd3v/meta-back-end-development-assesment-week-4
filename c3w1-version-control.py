@@ -63,3 +63,11 @@ Three kinds of Input/ Output redirections:
 1. Input
 2. Output
 3. Error
+
+Input (0): Keyboard, Mouse etc. Symbol: < .Use the cat command to store text for a text file.
+E.g. cat > example.txt
+This is some example text.
+Ctrl + D
+To view the text: cat < example.txt
+Output (2): Symbol: >
+Error (3):  Symbol: >2
