@@ -70,4 +70,12 @@ This is some example text.
 Ctrl + D
 To view the text: cat < example.txt
 Output (2): Symbol: >
-Error (3):  Symbol: >2
+Error (3):  Symbol: 2> 
+
+Grep (Global Regular Expression Print)
+grep Example names.txt
+This will print all names in the names.txt file that have 'Example' in it.
+
+By default, grep is case sensitive. To remove this, you can use grep -i.
+grep -w Exact match search.
+ls /bin | grep example : This searches a file structure for a specified file/ folder name.
