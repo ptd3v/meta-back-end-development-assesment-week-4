@@ -15,3 +15,7 @@ After: Remote Repository > (git checkout) > Working Directory
 
 // The correct workflow is from the working directory to the staging area, then to committed files, remote repository and lastly to your colleague.
 
+Data Structure: Lists
+[1,2,3] when adding a [4], it is moved to a whole new part of memory. E.g 1,2,3,hello.
+By adding the 4, it will overwrite hello. So it is moved to a new block of open memory.
+A program adding new items to lists will be very slow in memory.
