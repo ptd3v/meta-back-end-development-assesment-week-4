@@ -19,3 +19,10 @@ Data Structure: Lists
 [1,2,3] when adding a [4], it is moved to a whole new part of memory. E.g 1,2,3,hello.
 By adding the 4, it will overwrite hello. So it is moved to a new block of open memory.
 A program adding new items to lists will be very slow in memory.
+
+Data Sturcture: Linked Lists
+To avoid the issue above. New items are given a new location in memory, without moving the whole list.
+Memory index location: 0 | 1 | 2 | 3 | 4        156 | 497 | 989
+Value:                 1   2   3   4   5         6     7     8
+By adding [6, 7, 8] to a linked list, it keeps the list intact and just gives a location in memory.
+For example, number '6', when added to a list, would point to memory index '156'.
