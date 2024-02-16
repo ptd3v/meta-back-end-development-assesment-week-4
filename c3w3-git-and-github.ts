@@ -28,3 +28,37 @@ Memory index location: 0 | 1 | 2 | 3 | 4        156 | 497 | 989
 Value:                 1   2   3   4   5         6     7     8
 By adding [6, 7, 8] to a linked list, it keeps the list intact and just gives a location in memory.
 For example, number '6', when adding (appending) to a list, would point to memory index '156'.
+
+# Add and commit
+pwd  //Print Working Directory
+la - a //Print all items and folders in this directory
+git status // Check the git status
+//Print Out when git status called
+On main branch //Displays which branch we are currently on
+Your branch is up to date with 'Origin/main'. //Checks if there are any pending commits.
+Nothing to commit, working tree clean
+
+touch text.txt //Creates a file with the given name and extension
+git status
+//New Git Status report
+On main branch
+Your branch is up to date with 'Origin/main'.
+untracked files:
+test.txt
+nothing added to commit, but untracked files present.
+
+//Adding the file to the next commit
+git add test.txt
+git status
+On main branch
+Your branch is up to date with 'Origin/main'.
+Changes to be commited:
+new file: test.txt
+
+//How to undo a commit
+git restore --staged test.txt
+
+You use the Git add command to tell Git that the file is staged to be committed and that any further changes to the file will be tracked going forward.
+
+//Adding a commit message
+git commit -m "Enter the message here"
