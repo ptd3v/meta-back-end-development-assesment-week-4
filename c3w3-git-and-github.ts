@@ -62,3 +62,4 @@ You use the Git add command to tell Git that the file is staged to be committed 
 
 //Adding a commit message
 git commit -m "Enter the message here"
+
