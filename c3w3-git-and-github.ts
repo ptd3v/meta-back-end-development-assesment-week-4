@@ -63,3 +63,26 @@ You use the Git add command to tell Git that the file is staged to be committed 
 //Adding a commit message
 git commit -m "Enter the message here"
 
+//Branches
+Best practice first commands:
+pwd --To get the current directory
+git status --To see if there are any current pending commits
+
+//Create a new branch in git shell
+git checkout -b 'branch/name --This will create the branch and move you into it
+git branch //Will show your which brand you can are currently in
+
+Branches exist in isolation, your branch must be merged to be a part of the main branch.
+A Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub.
+
+//Once inside the new branch
+touch test2.txt //Create a new file in the new branch
+git add test2.txt //Add the new file to the branch
+git commit -m "Add text2.txt" //commit it, with a message
+
+//The Git remote command to set the remote repository.
+git push origin main //Push the branch changes you've made to the main branch.
+
+//Git Pushing
+When you use Git Push, Git compares a snapshot of your local repository with the remote one and only replaces the files that have been changed.
+git pull will pull any changes made to your current branch and auto-merge them IF there are no conflicts
