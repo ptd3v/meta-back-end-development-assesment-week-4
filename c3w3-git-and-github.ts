@@ -86,3 +86,6 @@ git push origin main //Push the branch changes you've made to the main branch.
 //Git Pushing
 When you use Git Push, Git compares a snapshot of your local repository with the remote one and only replaces the files that have been changed.
 git pull will pull any changes made to your current branch and auto-merge them IF there are no conflicts
+
+//Git HEAD
+Whenever a change occurs for a commit, the single hashed ID will update to be the latest commit for that working directory. 
