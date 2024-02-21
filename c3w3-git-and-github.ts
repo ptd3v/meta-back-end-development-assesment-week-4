@@ -89,3 +89,12 @@ git pull will pull any changes made to your current branch and auto-merge them I
 
 //Git HEAD
 Whenever a change occurs for a commit, the single hashed ID will update to be the latest commit for that working directory. 
+
+//Git Diff
+Individual files, branches, and commits can all be compared with Git diff.
+The order in which the change information will display in each line as follows: < ID><Author><Date><Time><Line number><Content>     
+
+// When you clone a forked repository, what does origin refers to The forked repository
+// The default branch is known as the main branch, or, master branch on older repositories.
+// You open a pull request to request merging of your forked changes.
+// The origin will always default to the clone URL. In this case, the forked repository is the origin.
