@@ -98,3 +98,6 @@ The order in which the change information will display in each line as follows: 
 // The default branch is known as the main branch, or, master branch on older repositories.
 // You open a pull request to request merging of your forked changes.
 // The origin will always default to the clone URL. In this case, the forked repository is the origin.
+
+The diff command is useful for inspecting file changes. GitHub also provides online diff tools. You've seen these when submitting a pull request.
+  
