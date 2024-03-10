@@ -7,3 +7,8 @@ NoSQL databases are a type of database that store data in a variety of different
 before = input("before: ")
 print ("After: ", end="")
 print (before.upper())
+
+#Iteration Two
+before = input("before: ")
+after = before.upper()
+print(f"After: {after}")
