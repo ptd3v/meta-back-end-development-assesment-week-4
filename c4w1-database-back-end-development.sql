@@ -12,3 +12,7 @@ print (before.upper())
 before = input("before: ")
 after = before.upper()
 print(f"After: {after}")
+
+#Iteration Three
+before = input("before: ")
+print(f"After: {before.upper()}")
