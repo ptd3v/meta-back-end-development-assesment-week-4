@@ -3,6 +3,12 @@ A Primary Key field contains unique values that cannot be replicated elsewhere i
   
 NoSQL databases are a type of database that store data in a variety of different formats.
 
+You are utilizing CRUD operations on the data in your database. Which of the following actions can you perform on the data using these operations? Check all that apply
+Create data
+Read data
+Update data
+Delete data
+
 #Iteration One
 before = input("before: ")
 print ("After: ", end="")
