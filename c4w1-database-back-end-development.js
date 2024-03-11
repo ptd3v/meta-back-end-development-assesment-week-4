@@ -22,3 +22,10 @@ print(f"After: {after}")
 #Iteration Three
 before = input("before: ")
 print(f"After: {before.upper()}")
+
+def calculator():
+    x = int(input("Enter A: "))
+    y = int(input("Enter B: "))
+    print (x + y)
+
+calculator()
