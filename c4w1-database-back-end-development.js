@@ -29,3 +29,10 @@ def calculator():
     print (x + y)
 
 calculator()
+
+exlist = [1, 3, 5, 7, 9, 11, 70]
+average = sum(exlist) / len(exlist)
+
+print(average)
+print(f"Average: {average}")
+
