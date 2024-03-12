@@ -132,3 +132,37 @@ SQL requires few coding skills to use.
 SQL can run on any hardware or operating system.
 SQL works with all relational databases.
 SQL covers all areas of database management and administration.
+
+import csv
+with open("example.csv", "r") as file:
+  varread = csv.DictReader(file) 
+    #DictReader reads the columb titles, #Reader does not
+      #next(reader) #start at line [1] to ignore header
+  for row in reader:
+    favourite = row["language"] #With DictReader, the data is now a dictionary, not a list. 
+    print(favourite)
+
+#Assuming a .csv file that contains which letters a survey find best. The options are a, b or c.
+a, b, c = 0, 0 , 0
+
+  for row in reader:
+    favourite = ["language"] # Results stored in the language columb.
+      if favourite == "a":
+        a += 1
+      elif favourite == "b":
+        b += 1
+      elif favourite == "c":
+        c += 1
+
+print(f"A: {a}")
+print(f"B: {b}")
+print(f"C: {c}")
+
+counter = {} #Empty Dictionary
+
+for row in reader:
+  favorate = row["language"]
+  if favourite in sorted(counts):
+    counts[favorite] += 1
+  else:
+    counts[favorite] = 1
