@@ -128,3 +128,7 @@ if len(sys.argv) != 2:
 print(f"hello, {sys.argv[1]}")
 sys.exit(0)
 
+SQL requires few coding skills to use. 
+SQL can run on any hardware or operating system.
+SQL works with all relational databases.
+SQL covers all areas of database management and administration.
