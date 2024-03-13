@@ -167,6 +167,13 @@ for row in reader:
   else:
     counts[favorite] = 1
 
+#SQL schema example
+.schema tablename
+  CREAT TABLE example
+  show_id INTEGER NOT NULL,
+  FOREIGN KEY(show_id) REFERENCES shows(id)
+  FOREIGN KEY(person_id) REFERENCES people(id)
+
 #IMDB Three DB not merged, searching via a middle DB.
 SELECT title FROM shows WHERE id IN
   (SELECT show_id FROM stars WHERE person_id =
