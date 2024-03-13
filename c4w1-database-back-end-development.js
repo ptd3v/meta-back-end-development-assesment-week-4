@@ -171,6 +171,7 @@ for row in reader:
 .schema tablename
   CREAT TABLE example
   show_id INTEGER NOT NULL,
+  title TEXT NOT NULL,
   FOREIGN KEY(show_id) REFERENCES shows(id)
   FOREIGN KEY(person_id) REFERENCES people(id)
 
