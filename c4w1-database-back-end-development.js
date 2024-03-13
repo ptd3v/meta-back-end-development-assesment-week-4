@@ -166,3 +166,20 @@ for row in reader:
     counts[favorite] += 1
   else:
     counts[favorite] = 1
+
+#IMDB Three DB not merged, searching via a middle DB.
+SELECT title FROM shows WHERE id IN
+  (SELECT show_id FROM stars WHERE person_id =
+    (SELECT is FROM people WHERE name = 'Steve Carell'));
+
+#Joining three DB for the same search.
+SELECT title FROM shows
+  JOIN stars ON shows.id = stars.show_id
+    JOIN people ON stars.person_id = people_id
+     WHERE name = 'Steve Carell';
+
+#More optimal method, matching through Primary and foreign keys
+SELECT title FROM shows, stars, people
+  WHERE shows.id = stars.show_id
+  AND people.id = stars.person_id
+  AND name = 'Steve Carell'
