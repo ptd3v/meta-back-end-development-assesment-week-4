@@ -191,3 +191,6 @@ SELECT title FROM shows, stars, people
   WHERE shows.id = stars.show_id
   AND people.id = stars.person_id
   AND name = 'Steve Carell'
+
+CURL = Connect to URL
+curl -I https://www.harvard.edu
