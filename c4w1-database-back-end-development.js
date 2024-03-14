@@ -194,3 +194,5 @@ SELECT title FROM shows, stars, people
 
 CURL = Connect to URL
 curl -I https://www.harvard.edu
+
+nginx
