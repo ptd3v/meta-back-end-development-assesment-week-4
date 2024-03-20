@@ -198,4 +198,4 @@ curl -I https://www.harvard.edu
 nginx
 Apache
 
-
+You can populate a table with data using Data Manipulation Language.
