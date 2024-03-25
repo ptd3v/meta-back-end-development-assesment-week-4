@@ -201,3 +201,8 @@ Apache
 You can populate a table with data using Data Manipulation Language.
 
 
+Data in a table is organized into rows and columns.
+A table relates to other tables in the same database.
+In a database that holds multiple tables, the tables are referred to as “relations” because they“relate” to one another.
+A table is sometimes also known as an “entity.”
+A table also often referred to as an “entity” in a more logical sense.
