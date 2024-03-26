@@ -206,3 +206,10 @@ A table relates to other tables in the same database.
 In a database that holds multiple tables, the tables are referred to as “relations” because they“relate” to one another.
 A table is sometimes also known as an “entity.”
 A table also often referred to as an “entity” in a more logical sense.
+
+A data type defines the type of value that can be stored in a table column. 
+  For example, here are some of the data types that are available:
+Numeric data types such as INT, TINYINT, BIGINT, FLOAT, REAL. 
+Date and time data types such as DATE, TIME, DATETIME. 
+Character and string data types such as CHAR, VARCHAR. 
+Binary data types such as BINARY, VARBINARY. 
