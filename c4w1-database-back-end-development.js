@@ -213,3 +213,5 @@ Numeric data types such as INT, TINYINT, BIGINT, FLOAT, REAL.
 Date and time data types such as DATE, TIME, DATETIME. 
 Character and string data types such as CHAR, VARCHAR. 
 Binary data types such as BINARY, VARBINARY. 
+
+  
