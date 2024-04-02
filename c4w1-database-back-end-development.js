@@ -215,3 +215,4 @@ Character and string data types such as CHAR, VARCHAR.
 Binary data types such as BINARY, VARBINARY. 
 
 A simple attribute type is designed to hold one single value.
+The integer data type is best suited to whole numbers.
