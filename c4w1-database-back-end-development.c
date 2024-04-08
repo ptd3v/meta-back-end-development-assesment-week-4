@@ -217,3 +217,5 @@ Binary data types such as BINARY, VARBINARY.
 A simple attribute type is designed to hold one single value.
 The integer data type is best suited to whole numbers.
 Tinyint = <255 integer
+
+CHAR is the best option for this column because you have a predefined size of character that you want to maintain.
